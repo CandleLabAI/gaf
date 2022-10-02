@@ -204,7 +204,7 @@
 		<table align=center width=850px>
 			<tr>
 				<td>
-					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>.
+<!-- 					This was a template originally made for <a href="http://richzhang.github.io/colorization/">Colorful Image Colorization</a>. The code can be found in this <a href="https://github.com/richzhang/webpage-template">repository</a>. -->
 				</td>
 			</tr>
 		</table>
@@ -216,19 +216,34 @@
 		<center><h1>Abstract</h1></center>
 		<tr>
 			<td>
-				This is my abstract.
+				In “vision and language” problems, multimodal inputs
+are simultaneously processed for combined visual and textual understanding for image-text embedding. In this paper,
+we discuss the necessity of considering the difference between the feature space and the distribution when performing multimodal learning. We deal with this problem through
+deep learning and a generative model approach. We introduce a novel network, GAFNet (Global Attention Fourier
+Net), which learns through large-scale pre-training over
+three image-text datasets (COCO, SBU, and CC-3M), for
+achieving high performance on downstream vision and language tasks. We propose a GAF (Global Attention Fourier)
+module, which integrates multiple modalities into one latent
+space. GAF module is independent of the type of modality, and it allows combining shared representations at each
+stage. Various ways of thinking about the relationships between different modalities directly affect the model’s design.
+In contrast to previous research, our work considers visual
+grounding as a pretrainable and transferable quality instead of something that must be trained from scratch. We
+show that GAFNet is a versatile network that can be used
+for a wide range of downstream tasks. Experimental results demonstrate that our technique achieves state-of-theart performance on multimodal classification on the CrisisMD dataset and image generation on the COCO dataset.
+For image-text retrieval, our technique achieves competitive
+performance.
 			</td>
 		</tr>
 	</table>
 	<br>
 
 	<hr>
-	<center><h1>Talk</h1></center>
-	<p align="center">
-		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe>
-	</p>
+<!-- 	<center><h1>Talk</h1></center> -->
+<!-- 	<p align="center"> -->
+<!-- 		<iframe width="660" height="395" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="center"></iframe> -->
+<!-- 	</p> -->
 
-	<table align=center width=800px>
+<!-- 	<table align=center width=800px>
 		<br>
 		<tr>
 			<center>
@@ -237,7 +252,7 @@
 			</center>
 		</tr>
 	</table>
-	<hr>
+	<hr> -->
 
 	<center><h1>Code</h1></center>
 
@@ -253,7 +268,7 @@
 		<tr>
 			<td align=center width=400px>
 				<center>
-					<td><img class="round" style="width:450px" src="./resources/method_diagram.png"/></td>
+					<td><img class="round" style="width:450px" src="./resources/arch_diag.png"/></td>
 				</center>
 			</td>
 		</tr>
@@ -262,7 +277,7 @@
 		<center>
 			<tr>
 				<td>
-					Short description if wanted
+<!-- 					Short description if wanted -->
 				</td>
 			</tr>
 		</center>
@@ -270,7 +285,7 @@
 	<table align=center width=800px>
 		<br>
 		<tr><center>
-			<span style="font-size:28px">&nbsp;<a href='https://github.com/richzhang/webpage-template'>[GitHub]</a>
+			<span style="font-size:28px">&nbsp;<a href='https://github.com/CandleLabAI/GAFNet'>[GitHub]</a>
 			</center>
 		</span>
 	</table>
@@ -280,9 +295,9 @@
 		<center><h1>Paper and Supplementary Material</h1></center>
 		<tr>
 			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>
-			<td><span style="font-size:14pt">F. Author, S. Author, T. Author.<br>
-				<b>Creative and Descriptive Paper Title.</b><br>
-				In Conference, 20XX.<br>
+			<td><span style="font-size:14pt">Onkar Susladkar, Gayatri Deshmukh, Dhruv Makwana<br>
+				<b>GAFNet: A Global Fourier Self Attention Based Novel Network for multi-modal downstream tasks</b><br>
+				In Conference WACV, 2022.<br>
 				(hosted on <a href="">ArXiv</a>)<br>
 				<!-- (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> -->
 				<span style="font-size:4pt"><a href=""><br></a>
